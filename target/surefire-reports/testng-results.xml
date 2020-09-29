@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="16742" started-at="2020-09-29T00:47:21 EDT" finished-at="2020-09-29T00:47:38 EDT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerTest@5abca1e0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="16742" started-at="2020-09-29T00:47:21 EDT" finished-at="2020-09-29T00:47:38 EDT">
+      <class name="runner.RunnerTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.RunnerTest@5abca1e0]" name="setUpClass" is-config="true" duration-ms="267" started-at="2020-09-29T00:47:21 EDT" finished-at="2020-09-29T00:47:21 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerTest@5abca1e0]" name="runScenario" duration-ms="10804" started-at="2020-09-29T00:47:21 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-29T00:47:32 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify resource is active"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User Registration API]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerTest@5abca1e0]" name="runScenario" duration-ms="14715" started-at="2020-09-29T00:47:21 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-29T00:47:36 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Login button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User Management page tests]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerTest@5abca1e0]" name="runScenario" duration-ms="16277" started-at="2020-09-29T00:47:21 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-29T00:47:38 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify POST request result is displayed in UI"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[All integration tests]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerTest@5abca1e0]" name="runScenario" duration-ms="14789" started-at="2020-09-29T00:47:21 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-29T00:47:36 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register new user using DataTable"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User Management page tests]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerTest@5abca1e0]" name="runScenario" duration-ms="14899" started-at="2020-09-29T00:47:21 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-29T00:47:36 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify User Database button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User Management page tests]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RunnerTest@5abca1e0]" name="tearDownClass" is-config="true" duration-ms="170" started-at="2020-09-29T00:47:38 EDT" finished-at="2020-09-29T00:47:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunnerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
